@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>WELCOME TO DEMO</title>
+	<link rel="stylesheet" href="USAA.css" type="text/css" />
+	<script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+	<section>
+		<div id="container">
+			<nav class="navbar head">
+				<img class="logo" src="USAA 100.png">
+				<p><a href="#" class="firstlink head">Insurance</a></p>
+				<p><a href="#" class="firstlink head">Banking</a></p>
+				<p><a href="#" class="firstlink head">Investing</a></p>
+				<p><a href="#" class="firstlink head">Retirement</a></p>
+				<p><a href="#" class="firstlink head">Advice</a></p>
+				<p><a href="#" class="firstlink head">Membership</a></p>
+				<p><a href="#" class="firstlink search head" >Search</a></p>
+				<p><a href="#" class="firstlink head">Chat</a></p>
+				<p><a href="#" class="firstlink head">  Log On</a></p>
+					
+			</nav>
+		</div>
+            <section>
+
+				<i class="fa fa-user-o" aria-hidden="false" style="font-size:24px ;">
+
+					<div class="secondcontainer">
+
+                 <div class="contents">
+					 <div class="customize"> </div>
+				<h2 style="color: WHITE;">JOIN USAA</h2> <br>
+				<h1>We proudly serve military <br /> members and their families.
+				</h1> <br/>
+				<p class="firstletters">Since 1922, we have stood by our members. We are <br/>  your organization for insurance, banking, <br/> 
+				investments and retirement.</p> <br/>
+
+				<button class="Join">Join Now</button>
+			</div>
+
+			<div class="armyimg">
+				<img src="usaa army pics.png" alt="A phot of an Army hugging his Daughter" class="army">
+
+			</div>
+
+		</div>
+
+			</section>
+
+			
+
+		</div>
+		
+
+	</section>
+
+</body>
+</html>
+
+
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+*{
+			padding: 0;
+			margin: 0;
+		}
+
+		.firstlink{
+			text-decoration: none;
+			color: white;
+			font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+			font-size: 17px;
+			padding: 32px 9px;
+			border-radius: 3px;
+			margin-left: 28px;
+		}
+		.head {
+			display: flex;
+			flex-direction: row;
+		}
+
+		.home{
+			margin-left: 210px;
+		}
+
+		a:hover,a:active{
+			height: 21.5px;
+			width: auto;
+			background-color: rgba(0, 0, 0, 0.3);
+			background-size: cover;
+			transition: .5s;
+
+		}
+
+		.navbar {
+              background-color: #1a3258;
+              height: 87px;
+			  border-bottom: 1px ridge rgba(255, 255, 255, 0.2);
+			  width: 100%;
+		}
+		img {
+			width: 120px;
+			height: 45.5px;
+			margin-top: 14px;
+			margin-left: 47px;
+			position: relative;
+
+		}
+
+		.img{
+			position: relative;
+		}
+		section{
+			height: 554px;
+			background-color: #1a3258;
+		}
+		.customize{
+			width: 112px;
+			height: 4px;
+			background-color: #fac705;
+			 border: 1px solid #fac705;
+			justify-content: center;
+			margin-top: 75px;
+			margin-left: 44px;
+			margin-bottom: 4px;
+			
+		}
+		h2{
+			align-self: center;
+			margin-left: 44px;
+			font-size: 21px;
+			font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+			margin-bottom: 25px;
+		}
+		.search{
+			margin-left: 70px;
+		}
+		.Join{
+			border: none;
+			text-decoration: none;
+			background: #f7c601e3 ;
+			width: 147px;
+			height: 65px;
+			color: #1a3258;
+			font-size: 20px;
+			margin-left: 44px;
+			margin-top: 15px;
+			border-radius: 3px;
+			box-shadow: rgba(0, 0, 0, 0.3);
+			font-weight: bold;
+		}
+		button:hover{
+			cursor: pointer;
+			background: #f4c507fd;
+			border-style: none;
+			outline: none;
+			
+		}
+		h1{
+			color: white;
+			font-size: 38.5px;
+			margin-left: 43px;
+			font-family: FF Quadraat Sans OT Bold;
+		}
+		.firstletters{
+			color: white;
+			margin-left: 43px;
+			font-family: sans-serif;
+			font-size: 21px;
+			letter-spacing: 1.5px;
+		}
+		.army{
+			width: 612.5px;
+			height: 555px;
+			margin-top: -0.8px;
+		}
+		.secondcontainer{
+			display: flex;
+			flex-direction: row;
+		}
+	
